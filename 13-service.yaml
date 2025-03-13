@@ -8,6 +8,7 @@ spec:
   module: backend
   environment: dev
  ports: 
-  name: nginx-svc-port 
+  name: nginx-svc-port
+  protocol: TCP 
   port: 80 #serviceport
-  targetport: 80 #containerport 
+  targetPort: 80 #containerport 
