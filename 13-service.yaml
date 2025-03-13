@@ -7,7 +7,7 @@ spec:
   project: expense
   module: backend
   environment: dev
-  ports: 
-   name: nginx-svc-port 
-   port: 80 #serviceport
-   targetport: 80 #containerport 
+ ports: 
+  name: nginx-svc-port 
+  port: 80 #serviceport
+  targetport: 80 #containerport 
