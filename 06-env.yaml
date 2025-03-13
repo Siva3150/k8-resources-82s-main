@@ -10,7 +10,7 @@ spec:
    - name: course 
      value: devops 
    - name: duration 
-     value: 120hrs 
+     value: 130hrs 
    - name: trainer 
      value: sivakumarreddy
   
