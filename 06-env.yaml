@@ -1,0 +1,16 @@
+apiVwesion: v1 
+kind: Pod 
+metadata: 
+ name: environment 
+spec: 
+ containers: 
+ - name: nginx 
+   image: nginx 
+   env: 
+    - name: course 
+      value: devops 
+    - name: duration 
+      value: 120hrs 
+    - name: trainer 
+      value: sivakumarreddy
+  
